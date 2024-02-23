@@ -10,8 +10,8 @@
 # 4. Text Basics (HTML, CSS)
 <img width="951" alt="Screenshot 2024-02-23 at 11 59 03 PM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/32a7e1dd-99b2-499f-9cde-e332352283fe">
 
-5. Text Exercise (HTML, CSS)
+# 5. Text Exercise (HTML, CSS)
 <img width="806" alt="Screenshot 2024-02-24 at 12 00 18 AM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/f2ec8f34-226b-4986-ac85-5e78e3d20b90">
 
-6. Uber Form (HTML, CSS)
+# 6. Uber Form (HTML, CSS)
 <img width="1304" alt="Screenshot 2024-02-24 at 12 01 24 AM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/d0447357-8259-4ee7-b3e8-c5403db6ab17">
