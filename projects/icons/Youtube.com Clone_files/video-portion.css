@@ -1,0 +1,49 @@
+/*
+    Display property in CSS: 
+
+    > in HTML there are 3 types of elements: 
+    1. BLOCK ELEMENT: A block element takes up the entire line.
+                    A paragraph by default is a block element.
+    2. INLINE-BLOCK ELEMENT: only takes up as much space as needed,
+                    and doesn't takes up the entire line.
+                    For ex. image element & input element.
+    3. INLINE ELEMENT: This are basically just text elements, 
+                    they appear within a line of text.
+                    For ex. strong element.
+*/
+
+.thumbnail-row{
+    margin-bottom: 6px;
+}
+.thumbnail{
+    width: 100%;    /* will only take up 100% of container / column grid */
+    border-radius: 8px;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 48px 1fr;
+}
+.channel-picture{
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+}
+.video-title{
+    font-weight: 500;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+.video-author,
+.video-stats{
+    margin-top: 0px;
+    margin-bottom: 1px;
+    color: rgb(104, 104, 104);
+    font-size: 14px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 18px;
+    row-gap: 25px;
+}
