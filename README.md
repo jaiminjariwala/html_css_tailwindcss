@@ -23,5 +23,5 @@
 ## 8. Grid Tutorial ([HTML-CSS](https://github.com/jaiminjariwala/html_css/blob/main/intro_to_html_css/grid_tutorial.html))
 <img width="1312" alt="Screenshot 2024-02-26 at 11 34 29 PM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/69651802-a408-4d0f-b329-a8a6b304b415">
 
-## 9. Flexbox Tutorial ([HTML](https://github.com/jaiminjariwala/html_css/blob/main/intro_to_html_css/flexbox.html))
+## 9. Flexbox Tutorial ([HTML-CSS](https://github.com/jaiminjariwala/html_css/blob/main/intro_to_html_css/flexbox.html))
 <img width="841" alt="Screenshot 2024-02-26 at 11 35 30 PM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/519a89e4-1754-4ad5-bca8-11ca8a5f0694">
