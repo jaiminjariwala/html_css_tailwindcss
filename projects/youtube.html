@@ -13,8 +13,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
+        <!-- 
+            header, nav, main, section are semantic elements similar to div, except just... they give meaning to search-engines and screen-readers.
+        -->
         <!-- HEADER -->
-        <div class="header">
+        <header class="header">
             <!-- LEFT SECTION -->
             <div class="left-section">
 
@@ -63,10 +66,10 @@
                 <img class="current-user-icon"
                 src="icons/channel-profile.jpeg" alt="profile-icon">
             </div>  
-        </div>
+        </header>
 
         <!-- SIDE BAR -->
-        <div class="sidebar">
+        <nav class="sidebar">
             <div class="sidebar-link">
                 <img src="sidebar-icons/home.png" alt="home-icon">
                 <div>Home</div>
@@ -79,243 +82,246 @@
                 <img src="sidebar-icons/subscriptions.png" alt="subscriptions-icon">
                 <div>Subscriptions</div>
             </div>
-        </div>
+        </nav>
         
         <!-- NOTE: div by default is a block element-->
 
-        <div class="video-grid">
+        <main>
+            <section class="video-grid">
 
-            <!-- VIDEO-PREVIEW-1 -->
-            <div class="video-preview">
-                
-                <!-- VERTICAL LAYOUT -->
-                <div class="thumbnail-row">
-
-                    <img class="thumbnail"
-                        src="thumbnails/thumbnail-1.jpeg"
-                        alt="NYC video">
+                <!-- VIDEO-PREVIEW-1 -->
+                <div class="video-preview">
                     
-                    <div class="video-time">14:20</div>
-                </div>
-
-                <!-- VERTICAL LAYOUT -->
-                <div class="video-info-grid">
-
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div class="channel-picture-div">
-                        <img
-                        class="channel-picture"
-                        src="thumbnails/thumbnail-1-channel-picture.png" alt="channel-picture">
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="thumbnail-row">
+    
+                        <img class="thumbnail"
+                            src="thumbnails/thumbnail-1.jpeg"
+                            alt="NYC video">
+                        
+                        <div class="video-time">14:20</div>
                     </div>
-
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div class="video-info">
-
-                        <p class="video-title">
-                            This Mega-Development Was Built on an Active Railway
-                        </p>
-                        <p class="video-author">
-                            The B1M
-                        </p>
-                        <p class="video-stats">
-                            937K views &#183; 2 years ago  
-                        </p>
-
+    
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="video-info-grid">
+    
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div class="channel-picture-div">
+                            <img
+                            class="channel-picture"
+                            src="thumbnails/thumbnail-1-channel-picture.png" alt="channel-picture">
+                        </div>
+    
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div class="video-info">
+    
+                            <p class="video-title">
+                                This Mega-Development Was Built on an Active Railway
+                            </p>
+                            <p class="video-author">
+                                The B1M
+                            </p>
+                            <p class="video-stats">
+                                937K views &#183; 2 years ago  
+                            </p>
+    
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <!-- VIDEO-PREVIEW-2 -->
-            <div class="video-preview">
                 
-                <!-- VERTICAL LAYOUT -->
-                <div class="thumbnail-row">
-
-                    <img class="thumbnail"
-                        src="thumbnails/thumbnail-2.webp"
-                        alt="NYC video">
-
-                        <div class="video-time">3:21:42</div>
-
-                </div>
-
-                <!-- VERTICAL LAYOUT -->
-                <div class="video-info-grid">
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div>
-                        <img
-                        class="channel-picture"
-                        src="thumbnails/thumbnail-2-channel-picture.jpeg" alt="channel-picture">
-                    </div>
-
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div class="video-info">
-
-                        <p class="video-title">
-                            Alone in a city
-                        </p>
-                        <p class="video-author">
-                            Peace
-                        </p>
-                        <p class="video-stats">
-                            1.07M views &#183; 7 months ago  
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- VIDEO-PREVIEW-3 -->
-            <div class="video-preview">
-                
-                <!-- VERTICAL LAYOUT -->
-                <div class="thumbnail-row">
-                    <img class="thumbnail"
-                        src="thumbnails/thumbnail-3.jpeg"
-                        alt="NYC video">
+                <!-- VIDEO-PREVIEW-2 -->
+                <div class="video-preview">
                     
-                    <div class="video-time">3:21</div>
-                </div>
-
-                <!-- VERTICAL LAYOUT -->
-                <div class="video-info-grid">
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div class="channel-picture-div">
-                        <img
-                        class="channel-picture"
-                        src="thumbnails/thumbnail-3-channel-picture.jpeg" alt="channel-picture">
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="thumbnail-row">
+    
+                        <img class="thumbnail"
+                            src="thumbnails/thumbnail-2.webp"
+                            alt="NYC video">
+    
+                            <div class="video-time">3:21:42</div>
+    
                     </div>
-
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div class="video-info">
-
-                        <p class="video-title">
-                            Husn - (official)
-                        </p>
-                        <p class="video-author">
-                            Anuv Jain
-                        </p>
-                        <p class="video-stats">
-                            107M views &#183; 1 years ago  
-                        </p>
-
+    
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="video-info-grid">
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div>
+                            <img
+                            class="channel-picture"
+                            src="thumbnails/thumbnail-2-channel-picture.jpeg" alt="channel-picture">
+                        </div>
+    
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div class="video-info">
+    
+                            <p class="video-title">
+                                Alone in a city
+                            </p>
+                            <p class="video-author">
+                                Peace
+                            </p>
+                            <p class="video-stats">
+                                1.07M views &#183; 7 months ago  
+                            </p>
+    
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- VIDEO-PREVIEW-4 -->
-            <div class="video-preview">
-                
-                <!-- VERTICAL LAYOUT -->
-                <div class="thumbnail-row">
-                    <img class="thumbnail"
-                        src="thumbnails/thumbnail-4.webp"
-                        alt="NYC video">
+    
+                <!-- VIDEO-PREVIEW-3 -->
+                <div class="video-preview">
                     
-                    <div class="video-time">8:23</div>
-                </div>
-
-                <!-- VERTICAL LAYOUT -->
-                <div class="video-info-grid">
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div class="channel-picture-div">
-                        <img
-                        class="channel-picture"
-                        src="thumbnails/thumbnail-4-channel-picture.jpeg" alt="channel-picture">
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="thumbnail-row">
+                        <img class="thumbnail"
+                            src="thumbnails/thumbnail-3.jpeg"
+                            alt="NYC video">
+                        
+                        <div class="video-time">3:21</div>
                     </div>
-
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div class="video-info">
-
-                        <p class="video-title">
-                            Simple Explanation of Autoencoders
-                        </p>
-                        <p class="video-author">
-                            WelcomeAIOverlords
-                        </p>
-                        <p class="video-stats">
-                            32K views &#183; 1 years ago  
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- VIDEO-PREVIEW-5 -->
-            <div class="video-preview">
-                
-                <!-- VERTICAL LAYOUT -->
-                <div class="thumbnail-row">
-                    <img class="thumbnail"
-                        src="thumbnails/thumbnail-5.webp"
-                        alt="NYC video">
-
-                    <div class="video-time">6:24:51</div>
-                </div>
-
-                <!-- VERTICAL LAYOUT -->
-                <div class="video-info-grid">
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div class="channel-picture-div">
-                        <img
-                        class="channel-picture"
-                        src="thumbnails/thumbnail-5-channel-picture.jpeg" alt="channel-picture">
-                    </div>
-
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div class="video-info">
-
-                        <p class="video-title">
-                            3hr STUDY WITH ME. Rain sound for study.
-                        </p>
-                        <p class="video-author">
-                            Mango Oatmilk
-                        </p>
-                        <p class="video-stats">
-                            22K views &#183; 3 weeks ago  
-                        </p>
-
+    
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="video-info-grid">
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div class="channel-picture-div">
+                            <img
+                            class="channel-picture"
+                            src="thumbnails/thumbnail-3-channel-picture.jpeg" alt="channel-picture">
+                        </div>
+    
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div class="video-info">
+    
+                            <p class="video-title">
+                                Husn - (official)
+                            </p>
+                            <p class="video-author">
+                                Anuv Jain
+                            </p>
+                            <p class="video-stats">
+                                107M views &#183; 1 years ago  
+                            </p>
+    
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- VIDEO-PREVIEW-6 -->
-            <div class="video-preview">
-                
-                <!-- VERTICAL LAYOUT -->
-                <div class="thumbnail-row">
-                    <img class="thumbnail"
-                        src="thumbnails/thumbnail-6.webp"
-                        alt="NYC video">
+    
+                <!-- VIDEO-PREVIEW-4 -->
+                <div class="video-preview">
                     
-                    <div class="video-time">9:32</div>
-                </div>
-
-                <!-- VERTICAL LAYOUT -->
-                <div class="video-info-grid">
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div class="channel-picture-div">
-                        <img
-                        class="channel-picture"
-                        src="thumbnails/thumbnail-6-channel-picture.jpeg" alt="channel-picture">
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="thumbnail-row">
+                        <img class="thumbnail"
+                            src="thumbnails/thumbnail-4.webp"
+                            alt="NYC video">
+                        
+                        <div class="video-time">8:23</div>
                     </div>
-
-                    <!-- HORIZONTAL LAYOUT -->
-                    <div class="video-info">
-
-                        <p class="video-title">
-                            Brooklyn's Tower Soars to NYC's Tallest Skyscraper
-                        </p>
-                        <p class="video-author">
-                            Ultimate Build
-                        </p>
-                        <p class="video-stats">
-                            1.8K views &#183; 3 months ago  
-                        </p>
-
+    
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="video-info-grid">
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div class="channel-picture-div">
+                            <img
+                            class="channel-picture"
+                            src="thumbnails/thumbnail-4-channel-picture.jpeg" alt="channel-picture">
+                        </div>
+    
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div class="video-info">
+    
+                            <p class="video-title">
+                                Simple Explanation of Autoencoders
+                            </p>
+                            <p class="video-author">
+                                WelcomeAIOverlords
+                            </p>
+                            <p class="video-stats">
+                                32K views &#183; 1 years ago  
+                            </p>
+    
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+    
+                <!-- VIDEO-PREVIEW-5 -->
+                <div class="video-preview">
+                    
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="thumbnail-row">
+                        <img class="thumbnail"
+                            src="thumbnails/thumbnail-5.webp"
+                            alt="NYC video">
+    
+                        <div class="video-time">6:24:51</div>
+                    </div>
+    
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="video-info-grid">
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div class="channel-picture-div">
+                            <img
+                            class="channel-picture"
+                            src="thumbnails/thumbnail-5-channel-picture.jpeg" alt="channel-picture">
+                        </div>
+    
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div class="video-info">
+    
+                            <p class="video-title">
+                                3hr STUDY WITH ME. Rain sound for study.
+                            </p>
+                            <p class="video-author">
+                                Mango Oatmilk
+                            </p>
+                            <p class="video-stats">
+                                22K views &#183; 3 weeks ago  
+                            </p>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- VIDEO-PREVIEW-6 -->
+                <div class="video-preview">
+                    
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="thumbnail-row">
+                        <img class="thumbnail"
+                            src="thumbnails/thumbnail-6.webp"
+                            alt="NYC video">
+                        
+                        <div class="video-time">9:32</div>
+                    </div>
+    
+                    <!-- VERTICAL LAYOUT -->
+                    <div class="video-info-grid">
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div class="channel-picture-div">
+                            <img
+                            class="channel-picture"
+                            src="thumbnails/thumbnail-6-channel-picture.jpeg" alt="channel-picture">
+                        </div>
+    
+                        <!-- HORIZONTAL LAYOUT -->
+                        <div class="video-info">
+    
+                            <p class="video-title">
+                                Brooklyn's Tower Soars to NYC's Tallest Skyscraper
+                            </p>
+                            <p class="video-author">
+                                Ultimate Build
+                            </p>
+                            <p class="video-stats">
+                                1.8K views &#183; 3 months ago  
+                            </p>
+    
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
     </body>
 </html>
