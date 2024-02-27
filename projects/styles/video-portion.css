@@ -48,6 +48,33 @@
     column-gap: 20px;
     row-gap: 25px;
 }
+@media (max-width: 800px) {
+    .video-grid{
+        display: flex;
+        flex-direction: column;
+
+        /* not done... grid-template-columns: 1fr; because it was not working */
+    }
+}
+@media (max-width: 1200px) {
+    .video-grid{
+        /* we're only gonna have 2 columns when screen size is (0 - 1200px) */
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+@media (max-width: 1200) and (min-width: 1594px) {
+    .video-grid{
+        /* we're gonna have 3 columns when max-width is 1096px and min-width is 1594px */
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1594px) {
+    .video-grid{
+        /* from 1594px and up, we're gonna have 4 columns */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 .video-time{
     background-color: black;
     color: white;

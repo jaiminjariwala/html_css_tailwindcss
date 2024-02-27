@@ -8,7 +8,16 @@
 
     z-index: 200;
 }
-
+/* making side-bar contents and side-bar disappear when max-width reaches 791
+    and keeping left padding as 30px*/
+@media (max-width: 895px){
+    .sidebar{
+        display: none;
+    }
+    body{
+        padding-left: 30px;
+    }
+}
 .sidebar-link{
     height: 85px;
     margin-bottom: 1px;
