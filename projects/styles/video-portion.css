@@ -14,6 +14,7 @@
 
 .thumbnail-row{
     margin-bottom: 6px;
+    position: relative;
 }
 .thumbnail{
     width: 100%;    /* will only take up 100% of container / column grid */
@@ -44,6 +45,17 @@
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 18px;
+    column-gap: 20px;
     row-gap: 25px;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    position: absolute; /* need position absolute inside position relative (container) */
+    bottom: 8px;
+    right: 8px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
 }

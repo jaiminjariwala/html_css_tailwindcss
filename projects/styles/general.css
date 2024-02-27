@@ -3,6 +3,8 @@ p{
     color: black;
 }
 body{
-    height: 1000px;
-    margin: 0;
+    height: 2000px;
+    padding-top: 75px;
+    padding-left: 90px;
+    padding-right: 30px;
 }

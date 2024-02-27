@@ -1,0 +1,38 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 62px;
+    width: 75px;
+    background-color: white;
+
+    z-index: 200;
+}
+
+.sidebar-link{
+    height: 85px;
+    margin-bottom: 1px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    cursor: pointer;
+}
+.sidebar-link:hover{
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+}
+/* below syntax: selecting CSS selector's having space in between...
+                indicates that we're targeting all images inside sidebar-link class
+ */
+.sidebar-link img{
+    height: 24px;
+}
+.sidebar-link div{ /* only targets div's inside sidebar link */
+    font-family: Arial;
+    font-size: 12px;
+    margin-top: 5px;
+}

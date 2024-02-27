@@ -5,15 +5,36 @@
     flex-direction: row;
     /* for spreading content evenly... */
     justify-content: space-between;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px; /* setting left and right property makes element stretch! */
+    z-index: 100; /* to make the header appear above the thumbnails */
+
+    background-color: white;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(231, 231, 231);
 }
 .left-section{
     display: flex;
     align-items: center;
 }
-.hamburger-menu{
-    height: 20px;
+.hamburger-button{
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+}
+.hamburger-button:hover{
+    background-color: rgb(224, 224, 224);
+}
+.hamburger-menu{
+    height: 21px;
+    padding: 9px 7px 9px 7px;
     cursor: pointer;
 }
 .youtube-logo{
@@ -84,14 +105,33 @@
 }
 .video-upload-icon{
     height: 16px;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-right: 25px;
     cursor: pointer;
 }
-.notification-icon{
-    height: 20px;
+.notifications-icon-container{
+    height: 30px;
+    width: 32px;
     margin-right: 25px;
+    position: relative;
+}
+.notification-bell-icon{
+    padding-top: 5px;
+    height: 22px;
     cursor: pointer;
+}
+.notifications-count{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(196, 0, 0);
+    border: 1px solid black;
+    font-family: Arial;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .current-user-icon{
     height: 35px;
