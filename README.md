@@ -1,3 +1,5 @@
+## NOTE: Ignore all .DS_Store files!
+
 ## 1. Button Basics ([HTML](https://github.com/jaiminjariwala/html_css/blob/main/intro_to_html_css/button_basics.html), [CSS](https://github.com/jaiminjariwala/html_css/blob/main/intro_to_html_css/css_styles/button_basics.css))
 <img width="1173" alt="Screenshot 2024-02-23 at 11 53 01 PM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/01bcfaaa-f25f-4ce9-8626-f2dc9887debb">
 
