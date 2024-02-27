@@ -25,3 +25,7 @@
 
 ## 9. Flexbox Tutorial ([HTML-CSS](https://github.com/jaiminjariwala/html_css/blob/main/intro_to_html_css/flexbox.html))
 <img width="841" alt="Screenshot 2024-02-26 at 11 35 30 PM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/519a89e4-1754-4ad5-bca8-11ca8a5f0694">
+
+## 10. Youtube-Clone Project ([FOLDER](https://github.com/jaiminjariwala/html_css/tree/main/projects))
+<img width="1312" alt="Screenshot 2024-02-27 at 7 37 47 PM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/3ca8e9d5-804d-41c7-b0c7-5395ee62f761">
+
