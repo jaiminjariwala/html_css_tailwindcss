@@ -30,9 +30,15 @@
 <img width="1312" alt="Screenshot 2024-02-27 at 7 37 47 PM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/3ca8e9d5-804d-41c7-b0c7-5395ee62f761">
 
 # -----------------------TAILWIND CSS FOLDER-----------------------
+> To setup tailwind css, run these commands...
+```
+npm init -y  // This initializes the directory as a NodeJS project
+npm install -D tailwindcss postcss autoprefixer vite  // install required packages
+npx tailwindcss init -p
+```
+> In your tailwind.config.js file replace content: [ ], with content: ["*"] <br>
+> Add "start" : "vite" to your scripts in package.json <br>
+> Run npm run start command to start a dev sever <br>
 
 ## 1. Landing Page ([LINK](https://github.com/jaiminjariwala/html_css_js/blob/main/tailwind_css_tuto/landing.html))
 <img width="1312" alt="Screenshot 2024-02-28 at 9 57 40 PM" src="https://github.com/jaiminjariwala/html_css_js/assets/157014747/a906c685-1d48-4044-9ec3-f2996d439a83">
-
-
-
