@@ -1,4 +1,4 @@
-## NOTE: Ignore all .DS_Store files!
+<img width="1312" alt="Screenshot 2024-02-28 at 9 57 40 PM" src="https://github.com/jaiminjariwala/html_css_js/assets/157014747/7739eaf3-f513-4b6a-bb7a-fac2e1e1ea76">## NOTE: Ignore all .DS_Store files!
 
 ## 1. Button Basics ([HTML](https://github.com/jaiminjariwala/html_css/blob/main/intro_to_html_css/button_basics.html), [CSS](https://github.com/jaiminjariwala/html_css/blob/main/intro_to_html_css/css_styles/button_basics.css))
 <img width="1173" alt="Screenshot 2024-02-23 at 11 53 01 PM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/01bcfaaa-f25f-4ce9-8626-f2dc9887debb">
@@ -30,4 +30,11 @@
 
 ## 10. Youtube-Clone Project ([FOLDER](https://github.com/jaiminjariwala/html_css/tree/main/projects))
 <img width="1312" alt="Screenshot 2024-02-27 at 7 37 47 PM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/3ca8e9d5-804d-41c7-b0c7-5395ee62f761">
+
+# -----------------------TAILWIND CSS FOLDER-----------------------
+
+## 1. Landing Page ([LINK](https://github.com/jaiminjariwala/html_css_js/blob/main/tailwind_css_tuto/landing.html))
+<img width="1312" alt="Screenshot 2024-02-28 at 9 57 40 PM" src="https://github.com/jaiminjariwala/html_css_js/assets/157014747/a906c685-1d48-4044-9ec3-f2996d439a83">
+
+
 
