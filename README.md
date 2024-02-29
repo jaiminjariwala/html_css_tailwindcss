@@ -31,14 +31,18 @@
 
 # -----------------------TAILWIND CSS FOLDER-----------------------
 > To setup tailwind css, run these commands...
-```
-npm init -y  // This initializes the directory as a NodeJS project
-npm install -D tailwindcss postcss autoprefixer vite  // install required packages
-npx tailwindcss init -p
-```
-> In your tailwind.config.js file replace ```content: [ ]```, with ```content: ["*"]``` <br>
-> Add ```"start": "vite"``` to your scripts in package.json <br>
-> Run ```npm run start``` command to start a dev sever <br>
+
+1. ```npm init -y```  // This initializes the directory as a NodeJS project
+2. ```npm install -D tailwindcss postcss autoprefixer```  // install required packages
+3. ```npm install vite```  // Vite is a build tool that helps optimize the development experience for modern web projects. Vite can be used to create optimized bundles of CSS and JavaScript.
+4. ```npx tailwindcss init -p```  // initiates postcss.config.js and tailwindcss.config.js files
+5. Create a file "style.css", add it to link element in html and edit it with below content:
+     * ```@tailwind base;```
+     * ```@tailwind components;```
+     * ```@tailwind utilities;```
+7. In your tailwind.config.js file replace ```content: [ ]```, with ```content: ["*"]``` <br>
+8. Add ```"start": "vite"``` to your scripts in package.json <br>
+9. Run ```npm run start``` command to start a dev sever <br>
 
 ## 1. Landing Page ([LINK](https://github.com/jaiminjariwala/html_css_js/blob/main/tailwind_css_tuto/landing.html))
 <img width="1312" alt="Screenshot 2024-02-28 at 9 57 40 PM" src="https://github.com/jaiminjariwala/html_css_js/assets/157014747/a906c685-1d48-4044-9ec3-f2996d439a83">
