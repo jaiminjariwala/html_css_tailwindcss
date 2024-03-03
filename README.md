@@ -29,7 +29,7 @@
 ## 10. Youtube-Clone Project ([FOLDER](https://github.com/jaiminjariwala/html_css/tree/main/projects))
 <img width="1312" alt="Screenshot 2024-02-27 at 7 37 47 PM" src="https://github.com/jaiminjariwala/html_css/assets/157014747/3ca8e9d5-804d-41c7-b0c7-5395ee62f761">
 
-# ---------------TAILWIND CSS FOLDER---------------
+# -----------TAILWIND CSS FOLDER-----------
 > To setup tailwind css, run these commands...
 
 1. ```npm init -y```  // This initializes the directory as a NodeJS project
